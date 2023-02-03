@@ -49,7 +49,7 @@ for (let i = 1; i <= 100; i++) {
 
   if (i % 3 === 0 && i % 5 === 0) {
     //   console.log(i, "FizzBuzz");
-    pElement.innerHTML += "<br>" + i + " " + a + " " + b + " ";
+    pElement.innerHTML += "<br>" + i + " " + a + b + " ";
     console.log(i, a + b);
   } else if (i % 3 === 0 && !i % 5 === 0) {
     //   console.log(i, "Fizz");
